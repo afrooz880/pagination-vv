@@ -5,11 +5,11 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: #ECF0F1;
 }
 
 header{
-    background-color: lightgray;
+    background-color: #ECF0F1;
     height: 60px;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ header{
 }
 
 .item:hover{
-    background-color:#dfe6e9;
+    background-color: #F0F3F4;
 }
 
 .item:last-of-type{
@@ -57,6 +57,8 @@ button{
     border: none;
     outline: none;
     background-color: blue;
+    color:#fff;
+    font-size: 18px;
 }
 
 button .active{
